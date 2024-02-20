@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: black;
+}
+.nav{
+    display: flex;
+}
+.sign
+{
+    color: aliceblue;
+    font-family: 'Great Vibes',sans-serif;
+
+}
+.hero
+{
+    height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+
+.intro{
+    color: aliceblue;
+    font-size: 64px;
+    text-transform: uppercase;
+    text-align: center;
+padding-right: 200px;
+padding-left: 200px;
+font-family: 'Raleway',sans-serif;
+
+}
+.hero p{
+    color: aliceblue;
+    font-size: 32px;
+    font-family: 'Raleway',sans-serif;
+    text-transform: capitalize;
+}
+.hero-btn{
+    border: solid 1px blueviolet;
+    height: 50px;
+    width: 100px;
+    font-size: large;
+    text-transform: uppercase;
+    background-color: aqua;
+    border-radius: 25px;
+    transition: 1s;
+    
+}
+.hero-btn:hover{
+    opacity: 0.5;
+    transform: translate(2px,4px) ;
+}
+.hero-btn:active{
+    background-color: antiquewhite;
+}
+.about{
+    height: 100vh;
+
+}
+.about h1{
+    color: aliceblue;
+    font-size: 62px;
+    text-align: center;
+
+}
+.about p{
+    color: aliceblue;
+    padding: 10px 100px 10px 100px;
+    line-height: 50px;
+}
+.skill
+{
+    height: 100vh;
+}
+.skill h1{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 40px;
+    font-size:64px;
+}
+
+.skil-i
+{    font-size:64px;
+    height: 80%;
+display: flex;
+align-items: center;
+justify-content: center;
+color: aliceblue;
+
+}
+.contact{
+    height: 100vh;
+    font-size:64px;
+color: aliceblue;
+text-align: center;
+margin-top: 100px;
+}
+.icon {
+    color: aliceblue;
+    height: 80%;
+    display: flex;
+    align-items: center;
+justify-content: space-evenly;
+
+}
+.icon a{
+    transition: 1s;
+}
+.icon a:hover{
+    color: brown;
+}
+.icon a:active{
+    color: white;
+}
