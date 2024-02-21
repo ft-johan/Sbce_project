@@ -4,9 +4,17 @@
 
 body{
     background-color: black;
+    margin: 0px;
 }
 .nav{
     display: flex;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+.nav img{
+    height: 50px;
+    border-radius: 25px;
 }
 .sign
 {
@@ -48,18 +56,29 @@ font-family: 'Raleway',sans-serif;
     background-color: aqua;
     border-radius: 25px;
     transition: 1s;
-    
+    box-shadow: 10px 10px white,12px 12px 5px lightcyan;
 }
 .hero-btn:hover{
     opacity: 0.5;
     transform: translate(2px,4px) ;
+    box-shadow: 5px 5px white;
 }
 .hero-btn:active{
     background-color: antiquewhite;
 }
 .about{
     height: 100vh;
+}
+.about-content{
+    
+    display: flex;
+    padding-top: 50px;
 
+}
+.about-content img{
+    height: 550px;
+    border-radius: 20px;
+margin-top: 75px;
 }
 .about h1{
     color: aliceblue;
@@ -67,9 +86,9 @@ font-family: 'Raleway',sans-serif;
     text-align: center;
 
 }
-.about p{
+.about-content p{
     color: aliceblue;
-    padding: 10px 100px 10px 100px;
+    padding: 0px 100px 10px 100px;
     line-height: 50px;
 }
 .skill
@@ -88,7 +107,7 @@ font-family: 'Raleway',sans-serif;
     height: 80%;
 display: flex;
 align-items: center;
-justify-content: center;
+justify-content: space-evenly;
 color: aliceblue;
 
 }
